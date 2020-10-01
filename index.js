@@ -30,5 +30,5 @@ const orang = {
       umur: 33,
 }
 
-orang = {orang,pekerjaan "Gurun", pendidikan: "S2"};
+orang = {...orang, pekerjaan: "Gurun", pendidikan: "S2"};
 console.log(orang);
